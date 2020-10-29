@@ -1,3 +1,6 @@
 # tf-test
 
-To use, `terraform init && TF_LOG=DEBUG terraform apply`
+To use:
+
+* Install terraform provider: https://github.com/hashicorp/terraform-provider-kubernetes-alpha
+* `terraform init && TF_LOG=DEBUG terraform apply`
